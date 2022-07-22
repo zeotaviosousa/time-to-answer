@@ -1,6 +1,0 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
-<br>
-<%= user_signed_in? ? link_to('Sair usuário', destroy_user_session_path, method: :delete) : link_to('Entrar usuário', new_user_session_path) %>
-<br>
-<%= admin_signed_in? ? link_to('Sair admin', destroy_admin_session_path, method: :delete) : link_to('Entrar admin', new_admin_session_path) %>
