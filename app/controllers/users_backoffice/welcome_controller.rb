@@ -1,6 +1,4 @@
-class UsersBackoffice::WelcomeController < ApplicationController
-  before_action :authenticate_user!
-
+class UsersBackoffice::WelcomeController < UserController
   def index
   end
 end

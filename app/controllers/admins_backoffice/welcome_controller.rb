@@ -1,6 +1,4 @@
-class AdminsBackoffice::WelcomeController < ApplicationController
-  before_action :authenticate_admin!
-
+class AdminsBackoffice::WelcomeController < AdminController
   def index
   end
 end
